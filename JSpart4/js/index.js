@@ -69,4 +69,4 @@
 // pdisney.sort();
 // console.log(pdisney)
 
-// console.log("Il y a "+ pdisney.length + " princesse dans le tableau")
+// console.log(`Il y a ${pdisney.length} princesse dans le tableau`)
