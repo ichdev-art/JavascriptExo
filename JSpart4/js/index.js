@@ -37,19 +37,41 @@
 // })
 
 // Exercice 5:
-// let mois = ["Janvier ", "Février","Mars","Avril","Mai","Juin","Juillet","Aôut","Septembre","Octobre","Novembre","Décembre",];
-// let jours = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche",];
+// let amois = ["Janvier ", "Février","Mars","Avril","Mai","Juin","Juillet","Aôut","Septembre","Octobre","Novembre","Décembre",];
+// let semaine = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche",];
 
-// let month = ["January ", "Febuary","March","April","May","June","July","August","September","October","November","December",];
-// let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday",];
+// let amonth = ["January", "Febuary","March","April","May","June","July","August","September","October","November","December",];
+// let weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday",];
 
-// let fr = [mois, jours]
-// let en = [month,days]
+// let fr = [amois, semaine]
+// let en = [amonth,weekdays]
 
 // let tab = [fr,en]
-// console.log (mois[10]+" - "+days[4])
+
+// let month =""
+// let jours =""
+
+// console.log (tab[0][0][10])
+// console.log (tab[1][1][4])
+
+// for (let i = 0; i < amonth.length; i++) {
+//     month += tab[1][0][i];
+//     if (i<11)
+//     month = month + "-"
+// }
 // console.log (month)
+
+// for (let j = 0; j < semaine.length; j++) {
+//     jours += tab[0][1][j];
+//     if (j<6)
+//     jours = jours + "-"
+// }
 // console.log (jours)
+
+// console.log (amois[10])
+// console.log (weekdays[4])
+// console.log (amonth)
+// console.log (semaine)
 
 // Exercice 6:
 // let pdisney = ["Cendrillon"]
